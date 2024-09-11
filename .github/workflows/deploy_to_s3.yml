@@ -29,4 +29,4 @@ jobs:
     # Copy requirements.txt to the root of the S3 bucket
     - name: Sync requirements.txt to S3
       run: |
-        aws s3 cp ./requirements.txt s3://mskl-airflow-bucket/requirements.txt
+        aws s3 cp ./requirements.txt s3://tredence-airflow-bucket/requirements.txt
